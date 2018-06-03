@@ -83,7 +83,19 @@ namespace Square.Connect.Model
             /// Enum OTHER for "OTHER"
             /// </summary>
             [EnumMember(Value = "OTHER")]
-            OTHER
+            OTHER,
+            
+            /// <summary>
+            /// Enum INTERAC for "INTERAC"
+            /// </summary>
+            [EnumMember(Value = "INTERAC")]
+            INTERAC,
+            
+            /// <summary>
+            /// Enum SQUARE_GIFT_CARD_V2 for "SQUARE_GIFT_CARD_V2"
+            /// </summary>
+            [EnumMember(Value = "SQUARE_GIFT_CARD_V2")]
+            SQUARE_GIFT_CARD_V2
         }
 
         /// <summary>
