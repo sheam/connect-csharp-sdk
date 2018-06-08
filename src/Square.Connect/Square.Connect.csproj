@@ -62,4 +62,8 @@ Contact: developers@squareup.com
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MsBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy $(TargetDir)$(TargetName).dll    D:\Users\sheam\code\Mine\brew-ninja\StrangeBrewWeb\lib
+copy $(TargetDir)$(TargetName).pdb D:\Users\sheam\code\Mine\brew-ninja\StrangeBrewWeb\lib</PostBuildEvent>
+  </PropertyGroup>
 </Project>
